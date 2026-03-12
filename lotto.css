@@ -1,0 +1,133 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(233, 229, 228);
+}
+.container{
+    width: 800px;
+    height: 1000px;
+    background-color: rgb(228, 84, 84);
+    border-radius: 3%;
+    position: relative;
+}
+.box{
+    width: 700px;
+    height: 900px;
+    background-color: white;
+    position: absolute;
+    left: 6%;
+    top: 5%;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 100%;
+    height: 30%;
+    /* background-color: maroon; */
+    display: flex;
+    justify-content: space-between;
+}
+#lottoImg{
+    width: 50%;
+    height: 100%;
+
+}
+#lottoImg>img{
+    width: 70%;
+    height: 80%;
+    object-fit: fill;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+#title{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.button{
+    width: 100%;
+    height: 10%;
+
+    /* background-color: mediumpurple; */
+}
+
+#go{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    border: 0px;
+    background-color: darkseagreen;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#go:hover{
+    background-color: rgb(106, 158, 106);
+}
+.numbersArea{
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(58, 228, 228); */
+    display: flex;
+    flex-direction: column;
+    
+}
+#numbers1{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#numbers2{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#numbers3{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#numbers4{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+#numbers5{
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.number{
+    width: 75px;
+    height: 75px;
+    background-color: crimson;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-top: 12px;
+    font-size: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(46, 44, 44);
+}
